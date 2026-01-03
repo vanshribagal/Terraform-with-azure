@@ -11,6 +11,7 @@ Bidirectional VNet Peering
 The setup demonstrates network connectivity between VMs across peered VNets.
 
 
+```
 
 Resource Group: day15-rg (Canada East)
 
@@ -25,3 +26,5 @@ VNet 2: peer2-vnet (10.1.0.0/16)
 Peering:
  peer1to2  → VNet1 → VNet2
  peer2to1  → VNet2 → VNet1
+
+
