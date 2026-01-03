@@ -1,17 +1,24 @@
-Terraform — Azure VNet Peering With Virtual Machines
+# Terraform — Azure VNet Peering With Virtual Machines
 
 This Terraform project deploys the following Azure resources:
 
-1 Resource Group
-2 Virtual Networks
-2 Subnets
+- 1 Resource Group
 
-Bidirectional VNet Peering
-2 Ubuntu Linux Virtual Machines (one in each VNet)
+- 2 Virtual Networks
+
+- 2 Subnets
+
+- Bidirectional VNet Peering
+
+- 2 Ubuntu Linux Virtual Machines (one in each VNet)
+
+- Bidirectional VNet Peering
+- 2 Ubuntu Linux Virtual Machines (one in each VNet)
+  
 The setup demonstrates network connectivity between VMs across peered VNets.
 
 
-```
+```HCL 
 
 Resource Group: day15-rg (Canada East)
 
